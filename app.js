@@ -6,8 +6,8 @@ function checkAndBuild(start, end, num, str) {
 }
 
 function init(num) {
-    let start = 0;
-    end = 0;
+    let start = 0,
+    end = 0,
     str = '';
     checkAndBuild(start, end, num, str);
 }
